@@ -1,0 +1,2 @@
+python3 -m basic.cli --mode=train  --split_supports --para_size_th=8000 --sent_size_th=615 --num_sents_th=64 --batch_size=5  --reasoning_layer='mac_rnn'  --save_period=1000 --supervise_first_doc=True --supervise_final_doc=True --num_hops=6 --shuffle_answer_doc_ids=True --oracle='extra' --run_id=01 --use_assembler=True --read_topk_docs=8 --emb_dim=300 --hidden_size=100 --num_gpus=2 --noload --cudnn_rnn=True
+

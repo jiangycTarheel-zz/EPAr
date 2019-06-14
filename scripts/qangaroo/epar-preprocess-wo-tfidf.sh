@@ -1,0 +1,3 @@
+python3 -m qangaroo.prepro --split_supports --find_candidates --glove_corpus="840B" --glove_vec_size=300 --truncate_at=500 
+cp data/qangaroo/split-supports/w-candi-truncated500-300d840b/data_test.json data/qangaroo/split-supports/w-candi-truncated500-300d840b/data_dev.json 
+cp data/qangaroo/split-supports/w-candi-truncated500-300d840b/shared_test.json data/qangaroo/split-supports/w-candi-truncated500-300d840b/shared_dev.json 
